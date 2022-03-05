@@ -5,7 +5,8 @@ permalink: /tesitriennali/
 ---
 
 ## Elenco tesi triennali svolte 
-
+site.baseurl
+tesitriennali.url
 <ul>
 {% for tesi in site.tesitriennali %}
   
