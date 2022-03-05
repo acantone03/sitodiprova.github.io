@@ -39,7 +39,8 @@ plugins:
 collections:
   tesitriennali:
     output: true
-  tesimagistrali: true
+  tesimagistrali:
+    output: true
    
 
 # Exclude from processing.
