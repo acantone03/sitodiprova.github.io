@@ -8,6 +8,6 @@ permalink: /tesitriennali/
 
 <ul>
 {% for tesi in site.tesitriennali %}
-  <li><a href="{{site.baseurl}}{{ tesitriennali.url }}">{{ tesitriennali.title }}</a></li>
+  <li><a href="{{site.baseurl}}{{ tesitriennali.url }}">{{ tesitriennali.tesi-name }}</a></li>
 {% endfor %}
 </ul>
