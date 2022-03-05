@@ -1,0 +1,11 @@
+nav:
+
+  - title: Home
+    url: /
+
+  - title: Tesi triennali
+    url: /tesitriennali/
+
+  - title: Tesi magistrali
+    url: /tesimagistrali/
+
