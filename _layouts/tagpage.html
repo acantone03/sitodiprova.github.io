@@ -5,8 +5,7 @@ layout: default
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ site.url }}">{{ site.title }}</a> ({{ page.date | date_to_string }})<br>
-    {{ page.description }}
+  <li><a href="{{ tesitriennali.url }}">{{ tesitriennali.title }}</a>
   </li>
 {% endfor %}
 </ul>
