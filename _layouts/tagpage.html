@@ -8,7 +8,7 @@
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{ tesitriennali.url }}">{{ tesitriennali.title }}</a>
+  <li><a href="{{site.baseurl}}">{{ tesitriennali.title }}</a>
   </li>
 {% endfor %}
 </ul>
