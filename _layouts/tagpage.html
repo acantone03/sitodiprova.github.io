@@ -1,6 +1,9 @@
----
-layout: page
----
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+{% include header.html %}
+  <main class="flex-shrink-0">
 <div class="post">
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
@@ -11,3 +14,7 @@ layout: page
 </ul>
 </div>
 <hr>
+</main>
+{% include footer.html %}
+</body>
+</html>
