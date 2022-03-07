@@ -42,6 +42,7 @@ collections:
   tesimagistrali:
     output: true
   tags:
+    output:true
    
 
 # Exclude from processing.
