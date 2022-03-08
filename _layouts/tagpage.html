@@ -7,10 +7,10 @@
 <div class="post">
 <h1>Tag: {{ page.tag }}</h1>
   <h1>Tags: {{ site.tags[page.tag] }}</h1>
-  {{site.baseurl}}{{ post.url }}
+ 
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li><a href="{{site.baseurl}}{{ post.url }}"> ciao </a>
+  <li> ciao 
   </li>
 {% endfor %}
 </ul>
