@@ -10,7 +10,7 @@
  
 <ul>
 {% for post in site.tags[page.tag] %}
-  <li> ciao 
+  <li> <a href="{{site.baseurl}}{{ post.url }}"> ciao </a>
   </li>
 {% endfor %}
 </ul>
